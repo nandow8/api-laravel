@@ -7,13 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-[Laravel documentation](https://laravel.com/docs)
-
 ## Ajustes iniciais
 ```
  - composer update
  .env  <- dados do banco
- 
 ```
 
 ## Rotas
@@ -28,5 +25,7 @@
 
 
 ## License
-
+```
+[Laravel documentation](https://laravel.com/docs)
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+```
