@@ -26,6 +26,7 @@ class UsersController extends Controller
         $users = new User;
         $users->name = $request->name;
         $users->email = $request->email;
+        $users->username = $request->username;
         $users->password = Hash::make($request->password);
         $users->save();
 
@@ -42,6 +43,7 @@ class UsersController extends Controller
 
         $users->name = $request->input('name');
         $users->email = $request->input('email');
+        $users->username = $request->input('username');
         $users->password = Hash::make($request->input('password'));
         $users->save();
 
